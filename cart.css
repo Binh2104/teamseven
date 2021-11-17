@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+.cart {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+.cart-container {
+  background-color: #f3f3f3;
+  padding: 20px 0 40px;
+  line-height: 1.5;
+  max-width: 1270px;
+  margin: 0 auto;
+}
+.cart{
+  padding: 100px 0;
+}
+.cart-logo p {
+  display: inline;
+  color: rgb(121, 119, 119);
+}
+.cart-logo h3 {
+  display: inline;
+  padding: 0 4px;
+  color: rgb(121, 119, 119);
+}
+.cart-container .fas {
+  font-weight: 900;
+  font-size: 18px;
+  color: rgb(121, 119, 119);
+  padding: 0 3px;
+}
+.cart-start {
+  padding-bottom: 0px;
+  background-color: #89b03f;
+  width: 100px;
+  margin-top: 20px;
+}
+.cart-head {
+  border-bottom: 1px solid #89b03f;
+  padding: 0;
+}
+.cart-container thead th {
+  padding-top: 40px;
+}
+.cart table {
+  font-size: 18px;
+}
+.cart .cart-container input {
+  width: 46px;
+  height: 26px;
+  text-align: center;
+  font-size: 18px;
+}
+.cart .cart-container tfoot {
+  border-top: 3px solid #89b03f;
+  text-align: center;
+}
+.cart .cart-name-sp,
+.cart tbody tr {
+  text-align: center;
+}
+.cart-container .gia {
+  width: 20%;
+}
+.cart-container .thong-tin {
+  width: 40%;
+}
+.cart-container .huy {
+  width: 8%;
+}
+.cart-container .quantity {
+  width: 10%;
+}
+.cart-container .out-many {
+  width: 20%;
+}
+.cart .row a {
+  text-decoration: none;
+  color: black;
+}
+.cart .row a:hover {
+  color: #89b03f;
+}
+.cart-container .sum {
+  padding-top: 30px;
+}
+.cart-mota p {
+  margin-left: 10px;
+}
+.cart-container .row {
+  margin: 20px 50px;
+}
+.cart-continue a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #070707;
+}
+.cart-continue {
+  background-color:rgba(146, 146, 138, 0.7);
+  width: 180px;
+  height: 30px;
+  font-size: 18px;
+  border: 1px solid gray;
+}
+.cart-container .cart-thanhtoan {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.cart-container .cart-continue:hover {
+  background-color:#89b03f;
+}
