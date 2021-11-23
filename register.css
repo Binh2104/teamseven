@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+.bao {
+  background: #f3f3f3 none repeat scroll 0 0;
+  width: 485px;
+  height: 100%;
+  margin: 80px auto;
+  padding: 37px 40px;
+  /* text-align: left; */
+}
+.register {
+  overflow: hidden;
+}
+
+.head {
+  margin: 0 auto 48px;
+}
+.title-register-0 {
+  text-align: center;
+  margin: 0 0 8px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.title-register-1 {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+  font-family: "Poppins", sans-serif;
+}
+.input_item {
+  padding: 0px 0px 16px;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 16px;
+  border-style: none;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  padding: 1px 10px;
+  /* width: 400px; */
+  width: 100%;
+  height: 40px;
+  border-style: none;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+}
+
+#remember {
+  margin-top: 5px;
+  width: 20px;
+  height: 18px;
+  float: left;
+  margin-right: 10px;
+}
+
+.buttonn {
+  font-size: 14px;
+  border-radius: 50px;
+  background-color: rgb(233, 140, 129);
+  width: 109px;
+  height: 36.8px;
+  font-weight: 400;
+  color: white;
+  border-style: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.buttonn:hover {
+  background-color: #dddd;
+  color: black;
+}
+.labelx {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+
+  color: black;
+}
+
+/* banner */
+.banner {
+  position: relative;
+  margin-top: 0px;
+  width: 100%;
+  height: 284px;
+  background-image: url(images_btl/login_cart_checkout/bannerlogo.jpg);
+  background-size: cover;
+  opacity: 0.8;
+  /* background-position-y: 100%; */
+  background-repeat: no-repeat;
+}
+.login1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login2 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hihi {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.headera-baner:hover {
+  color: rgb(233, 140, 129);
+  text-decoration: none;
+}
+.headera-baner {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  /* For mobile phones: */
+  .bao {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .login1 {
+    font-size: 24px;
+  }
+  .login2 {
+    font-size: 14px;
+  }
+  .hihi {
+    font-size: 10px;
+  }
+  .bao {
+    width: 80%;
+  }
+  /* input{
+        width: 390px;
+    } */
+}
+@media only screen and (max-width: 500px) {
+  .login1 {
+    font-size: 24px;
+  }
+  .login2 {
+    font-size: 14px;
+  }
+  .hihi {
+    font-size: 10px;
+  }
+  .bao {
+    width: 80%;
+  }
+  .input_item {
+    font-size: 10px;
+  }
+  input {
+    font-size: 10px;
+  }
+  .labelx {
+    font-size: 8px;
+  }
+  #remember {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  .login1 {
+    font-size: 20px;
+  }
+  .login2 {
+    font-size: 10px;
+  }
+  .hihi {
+    font-size: 8px;
+  }
+  .bao {
+    width: 80%;
+  }
+  .input_item {
+    font-size: 10px;
+  }
+  input {
+    font-size: 10px;
+  }
+  .labelx {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .login1 {
+    font-size: 20px;
+  }
+  .login2 {
+    font-size: 10px;
+  }
+  .hihi {
+    font-size: 8px;
+  }
+  .bao {
+    width: 80%;
+  }
+  input {
+    font-size: 10px;
+  }
+}
