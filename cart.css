@@ -1,0 +1,47 @@
+@media screen and (max-width: 700px) { 
+  #cart tbody td .form-control { 
+  width:20%; 
+  display: inline !important;
+  } 
+  .actions .btn { 
+  width:36%; 
+  margin:1.5em 0;
+  } 
+   
+  .actions .btn-info { 
+  float:left;
+  } 
+   
+  .actions .btn-danger { 
+  float:right;
+  } 
+   
+  #cart thead {
+  display: none;
+  } 
+   
+  #cart tbody td {
+  display: block;
+  padding: .6rem;
+  min-width:320px;
+  } 
+   
+  #cart tbody tr td:first-child {
+  background: #333;
+  color: #fff;
+  } 
+   
+  #cart tbody td:before { 
+  content: attr(data-th);
+  font-weight: bold; 
+  display: inline-block;
+  width: 8rem;
+  } 
+   
+  #cart tfoot td {
+  display:block;
+  } 
+  #cart tfoot td .btn {
+  display:block;
+  }
+  }
