@@ -1,27 +1,10 @@
-*{
+* {
     box-sizing: border-box;
 }
+
 .register {
     overflow: hidden;
-}
-
-.head {
-    margin: 0 auto 48px;
-}
-.title-register-0 {
-    text-align: center;
-    margin: 0 0 8px;
-    font-weight: 600;
-    font-size: 24px;
-    font-family: 'Oswald', sans-serif;
-}
-
-.title-register-1 {
-    text-align: center;
-    margin-top: 0px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    /* border: 1px solid black; */
 }
 
 .bao {
@@ -30,7 +13,28 @@
     height: 100%;
     margin: 80px auto;
     padding: 37px 40px;
-    /* text-align: left; */
+    /* border: 1px solid black; */
+}
+
+.head {
+    /* border: 1px solid black; */
+    margin: 0 auto 48px;
+}
+
+.title-register-0 {
+    text-align: center;
+    margin: 0 0 8px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+}
+
+.title-register-1 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
 }
 
 .input_item {
@@ -39,6 +43,7 @@
     width: 100%;
     margin: 0px auto 16px;
     border-style: none;
+    /* border: 1px solid black; */
     overflow: hidden;
 }
 
@@ -48,7 +53,7 @@ input {
     height: 40px;
     border-style: none;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 #remember {
@@ -59,28 +64,33 @@ input {
     float: left;
     margin-right: 5px;
 }
-label{
-    font-size:14px;
+
+label {
+    font-size: 14px;
     font-weight: 400;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     /* padding-top: 5px; */
 }
+
+
 /* #checkk {
     margin-top: -16px;
 } */
 
-.forget-pwd{
+.forget-pwd {
     float: right;
     font-size: 14px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: black;
     text-decoration: none;
     display: block;
 }
-.forget-pwd:hover{
-    color:rgb(233, 140, 129) ;
+
+.forget-pwd:hover {
+    color: rgb(233, 140, 129);
     text-decoration: none;
 }
+
 .login-nut {
     /* margin-top: -16px; */
     font-size: 14px;
@@ -90,28 +100,35 @@ label{
     height: 36.8px;
     font-weight: 400;
     color: white;
-    border-style: none; 
-    font-family: 'Poppins', sans-serif; ;
+    border-style: none;
+    font-family: "Poppins", sans-serif;
 }
+
 .login-nut:hover {
     background-color: #dddd;
     color: black;
 }
-.cuoic{
+
+.cuoic {
     padding: 10px;
 }
-.href{
+
+.href {
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
-    font-size:15px;
-    color:black;
+    font-size: 15px;
+    color: black;
     margin-left: -10px;
 }
-.href:hover{
-    color:rgb(233,140,129)
+
+.href:hover {
+    color: rgb(233, 140, 129);
 }
+
+
 /* banner */
+
 .banner {
     position: relative;
     margin-top: 0px;
@@ -123,130 +140,147 @@ label{
     /* background-position-y: 100%; */
     background-repeat: no-repeat;
 }
+
 .login1 {
     text-align: center;
     font-size: 32px;
     font-weight: 600;
-    font-family:'Oswald', sans-serif;
-    position:absolute;
+    font-family: "Oswald", sans-serif;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .login2 {
-    font-family: 'Oswald', sans-serif;
-    text-align: center;   
-    font-weight:400;
-    font-size:18px; 
-    position:absolute;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.hihi{
-    font-family: 'Poppins', sans-serif;
-    font-size: 15px;
 
+.hihi {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
 }
-.headera-baner:hover{
-    color:rgb(233, 140, 129);
+
+.headera-baner:hover {
+    color: rgb(233, 140, 129);
     text-decoration: none;
 }
-.headera-baner{
+
+.headera-baner {
     color: black;
     text-decoration: none;
-}    
+}
 
 @media only screen and (max-width: 767px) {
     /* For mobile phones: */
-    .bao{
+    .bao {
         width: 80%;
     }
-    .login-nut{
+    .login-nut {
         margin-top: 20px;
     }
-
 }
-@media only screen and (max-width: 600px){
-    .login1{
-        font-size:24px;
+
+@media only screen and (max-width: 600px) {
+    .login1 {
+        font-size: 24px;
     }
-    .login2{
+    .login2 {
         font-size: 14px;
     }
-    .hihi{
+    .hihi {
         font-size: 10px;
     }
-    .bao{
+    .bao {
         width: 80%;
     }
 }
-@media only screen and (max-width: 500px){
-    .login1{
-        font-size:20px;
+
+@media only screen and (max-width: 500px) {
+    .login1 {
+        font-size: 20px;
     }
-    .login2{
+    .login2 {
         font-size: 14px;
     }
-    .hihi{
-    font-size:10px;
+    .hihi {
+        font-size: 10px;
     }
-    .bao{
+    .bao {
         width: 80%;
     }
-    .forget-pwd{
-        float: left; 
+    .forget-pwd {
+        float: left;
         display: inline;
     }
 }
 
-@media only screen and (max-width: 374px){
-    .login1{
-        font-size:20px;
+@media only screen and (max-width: 374px) {
+    .login1 {
+        font-size: 20px;
     }
-    .login2{
+    .login2 {
         font-size: 10px;
     }
-    .hihi{
-        font-size:8px;
-    }
-    .bao{
-        width: 80%;
-    }
-    .input_item{
-        font-size: 10px;
-    }
-    input{
-        font-size: 10px; 
-    }
-    .labelx{
+    .hihi {
         font-size: 8px;
     }
-    .forget-pwd{
+    .bao {
+        width: 80%;
+    }
+    .input_item {
+        font-size: 10px;
+    }
+    input {
+        font-size: 10px;
+    }
+    .labelx {
+        font-size: 8px;
+    }
+    .forget-pwd {
         float: left;
         margin: 20px 0 0 -25px;
     }
-
 }
 
-@media only screen and (max-width: 300px){
-    .login1{
-        font-size:20px;
+@media only screen and (max-width: 300px) {
+    .login1 {
+        font-size: 20px;
     }
-    .login2{
+    .login2 {
         font-size: 10px;
     }
-    .hihi{
+    .hihi {
         font-size: 8px;
     }
-    .bao{
+    .bao {
         width: 80%;
     }
-    input{
-        font-size: 10px; 
+    input {
+        font-size: 10px;
     }
-    .forget-pwd{
+    .forget-pwd {
         float: left;
     }
+    a.forget-pwd {
+        font-size: 10px;
+    }
+    .href {
+        font-size: 10px;
+    }
+    label {
+        padding-top: 5px;
+        font-size: 10px;
+    }
+}
 
+sup {
+    color: red;
 }
